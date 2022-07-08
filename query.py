@@ -16,7 +16,7 @@ def connect_mongodb (db_username, db_passw, db_name):
 
 
 #call the function to generate your own db
-databases = connect_mongodb (db_username='freda', db_passw='19freda87', db_name='mydb')
+databases = connect_mongodb (db_username='freda', db_passw='', db_name='mydb')
 #generate my clusters
 my_cluster = databases.mobile_numbers
 
