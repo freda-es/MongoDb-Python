@@ -14,6 +14,6 @@ def connect_mongodb (db_username, db_passw, db_name):
     database = client.get_database(db_name)
     return database
 #call the function to generate your own db
-databases = connect_mongodb (db_username='freda', db_passw='19freda87', db_name='dbECommerce')
+databases = connect_mongodb (db_username='', db_passw='', db_name='dbECommerce')
 #generate cluster
 my_cluster = databases.users
