@@ -26,4 +26,4 @@ def mongoimport(csv_path, db_name, coll_name):
 
 
 databases = connect_mongodb (db_username='', db_passw='', db_name='dbECommerce')
-mongoimport(csv_path="C:\\Users\\esoft\\Code\\python\\e-commerce\\MyData.csv", db_name="mydb", coll_name="mobile_numbers")
+mongoimport(csv_path="C:\\Users\\..\\Code\\python\\e-commerce\\MyData.csv", db_name="mydb", coll_name="mobile_numbers")
